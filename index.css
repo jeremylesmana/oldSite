@@ -1,0 +1,82 @@
+
+.headerSection {
+	text-align: center;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.underlineDotted {
+	border-bottom: 3px dashed black;
+	margin:auto;
+}
+.bodyText1 {
+	text-align: center;
+	width: 700px;
+	margin: auto;
+}
+
+p {
+	font-family: "GeoSans";
+	font-weight: 700;
+	font-size: 20px;
+	text-indent: 50px;
+}
+
+.socialMedia {
+	font-family: "Coolvetica";
+	width: 100px;
+	text-align: center;
+	margin: auto;
+	opacity: 0.5;
+	display: inline-block;
+	color: black;
+	text-decoration:none;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.socialMedia:hover {
+    opacity: .9;
+    text-decoration: underline;
+}
+
+.bigButton-section{
+	width: 100%;
+	text-align: center;
+}
+
+.bigButton {
+	width: 450px;
+	height: 250px;
+	margin: auto;
+	display: inline-block;
+	opacity: 0.75;
+    transition: opacity .25s;
+}
+
+.bigButton:hover {
+    opacity: 1;
+}
+
+.softwareExperiences-section {
+	width: 65%;
+	text-align: center;
+	font-family: "Coolvetica";
+	font-size: 30px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+}
+
+.softwareExperiences-box {
+	width: 250px;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin: 0 auto;
+}
+
+.softwareExperiences-spacer {
+	width: 275px;
+	margin: 0 auto;
+	display: inline-block;
+	height: 90px;
+}

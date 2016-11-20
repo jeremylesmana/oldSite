@@ -1,0 +1,79 @@
+.projSnapchat_Title {
+    font-family: "Mesmerize Regular";
+    font-weight: 900;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.projSnapchat_Subtitle {
+    font-family: "GeoSans";
+    font-weight: 900;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 17px;
+}
+
+.projSnapchat_Logo {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.projSnapchat_Filter {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 90%;
+    max-width: 500px;
+}
+
+
+.projSnapchat_Body {
+    background-color: white;
+    text-align: center;
+}
+
+.projSnapchat_Article {
+    text-indent: 50px;
+    width: 90%;
+    margin: auto;
+    font-family: "GeoSans";
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.projSnapchat_Source {
+    width: 90%;
+    margin: auto;
+    font-family: "GeoSans";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+    font-style: italic;
+}
+
+.projSnapchat_Main {
+    width:45%;
+    margin: auto;
+}
+
+.projSnapchat_Example {
+    width: 45%;
+    margin: auto;
+}
+
+.projSnapchat_ExamplePic {
+    display:block;
+    margin: auto;
+    max-width: 500px;
+    width: 100%
+}
+
+#projSnapchat_inline {
+    display: inline-block;
+    vertical-align: middle;
+}
