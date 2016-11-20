@@ -1,0 +1,24 @@
+.bl_TopTitle {
+	font-family: "Aileron Bold";
+	font-size: 60px;
+}
+
+#bl_Light {
+	font-family: "Aileron Light";
+}
+
+#bl_Reg {
+	font-family: "Aileron Regular";
+}
+
+#bl_Bold {
+	font-family: "Aileron Bold";
+}
+.b_grayBG {
+	background-color: #EBEBEB;
+	width: 100%;
+	left: 0px;
+	position: absolute;
+	height:865px;
+	top: 985px;
+}
