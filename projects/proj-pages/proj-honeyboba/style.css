@@ -1,0 +1,76 @@
+@font-face {
+	font-family: "Garamond";
+	src: url("garamond.ttf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #2e2e2e;
+}
+
+.hb_headerSection {
+    width: 100%;
+     background-image: url("top-header2.jpg");
+     height: 600px;
+     background-position: center bottom;
+     background-size: cover;
+     box-shadow: inset 0px 0px 25px 25px #2e2e2e;
+     background-color: black;
+}
+
+.hb_followTop {
+     position:fixed;
+     background-color:#2e2e2e;
+     opacity: 0.8;
+     width: 100%;
+     z-index: 50;
+     padding: 10px;
+     padding-left: 30px;
+}
+
+ .hb_leftFollow {
+    font-family: "Garamond";
+    font-size: 40px;
+    opacity: 1;
+    color:white;
+}
+
+.hb_rightFollow {
+    font-family: "Garamond";
+    color: white;
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+    opacity: 1;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.hb_leftFollowLogo {
+    width: 50px;
+}
+
+.hb_navlink {
+    color: white;
+}
+
+.hb_navlink:hover {
+    color: #E6B60B;
+    text-decoration: underline;
+}
+
+#hb_leftFollowInline {
+      display: inline-block;
+      vertical-align: middle;
+}
+
+.hb_leftFollow, .hb_rightFollow {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-wdith:20)
