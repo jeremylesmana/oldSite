@@ -106,6 +106,31 @@ body {
     vertical-align: top;
 }
 
+.hb_locationSection {
+    background-color: #212121;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.hb_locationBlock {
+    display: inline-block;
+    width: 400px;
+    margin: 0 auto;
+    height: 300px;
+    padding: 10px;
+    font-family: "Garamond";
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.hb_locationPicture {
+    max-width: 250px;
+    margin: 0 auto;
+    max-height: 200px;
+}
+
 a {
     text-decoration: none;
 }
