@@ -69,8 +69,31 @@ body {
     display: inline;
 }
 
+.hb_line {
+    background-color: #E6B60B;
+    width: 75%;
+    height: 2px;
+    margin: 0 auto;
+}
+
+.hb_title {
+    font-family: "Garamond";
+    font-size: 48px;
+    color: #E6B60B;
+    
+}
+
+.hb_bodyText {
+    font-family: "Garamond";
+    font-size: 20px;
+    color: white;
+}
+
+
 a {
     text-decoration: none;
 }
+
+
 
 @media (min-wdith:20)
