@@ -11,12 +11,10 @@ body {
 
 .hb_headerSection {
     width: 100%;
-     background-image: url("top-header2.jpg");
-     height: 600px;
-     background-position: center bottom;
-     background-size: cover;
-     box-shadow: inset 0px 0px 25px 25px #2e2e2e;
-     background-color: black;
+    height: 600px;
+    background-size: cover;
+    box-shadow: inset 0px 0px 25px 25px #2e2e2e;
+    background-color: black;
 }
 
 .hb_followTop {
@@ -66,7 +64,7 @@ body {
 }
 
 .hb_leftFollow, .hb_rightFollow {
-    display: inline;
+    display: inline-block;
 }
 
 .hb_line {
@@ -89,6 +87,24 @@ body {
     color: white;
 }
 
+.hb_menuSection {
+    background-color: #212121;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.hb_menuBlock {
+    display: inline-block;
+    width: 425px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: "Garamond";
+    font-size: 20px;
+    vertical-align: top;
+}
 
 a {
     text-decoration: none;
