@@ -131,6 +131,13 @@ body {
     max-height: 200px;
 }
 
+.hb_applyButton {
+    opacity: 0.8;
+}
+.hb_applyButton:hover {
+    opacity: 1;
+}
+
 a {
     text-decoration: none;
 }
