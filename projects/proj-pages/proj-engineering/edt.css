@@ -1,0 +1,91 @@
+.edt_Title {
+    margin: 0 auto;
+    font-family:'Coolvetica';
+    font-size: 50px;
+    border: 3px solid white;
+    width: 50%;
+    text-align: center;
+    min-width: 400px;
+    padding: 30px;
+    color:white;
+}
+
+.IntroImage {
+    display: block;
+    margin: 0 auto;
+}
+
+.edt_HeaderBackground {
+    background-color: black;
+    background-image: url("edt_images/header-background2.jpg");
+    background-size: cover;
+    background-position: center 30%;
+    box-shadow: 0px 0px 200px 75px black inset;
+}
+
+.edt_option {
+    transition: background-image 0.10s ease-in-out;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background-color: black;
+}
+
+.cad_option {
+    transition: background-image 0.10s ease-in-out;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background-color: black;
+}
+
+#edt_choices_edt {
+    display: inline-block;
+}
+
+
+#cad_choices_cad {
+    display: inline-block;
+}
+
+#edt_option_pingpong {
+    background-image: url("edt_images/thumbnail-edt-pingpong.jpg");
+}
+
+#edt_option_pingpong:hover {
+    background-image: url(edt_images/thumbnail-edt-pingpong-hover.jpg);
+}
+
+#edt_option_griddle {
+    background-image: url("edt_images/thumbnail-edt-griddle.jpg");
+}
+
+#edt_option_griddle:hover {
+    background-image: url(edt_images/thumbnail-edt-griddle-hover.jpg);
+}
+
+#edt_option_bridge {
+    background-image: url("edt_images/thumbnail-edt-bridge.jpg");
+}
+
+#edt_option_bridge:hover {
+    background-image: url(edt_images/thumbnail-edt-bridge-hover.jpg);
+}
+
+#edt_option_container {
+    background-image: url("edt_images/thumbnail-edt-container.jpg");
+}
+
+#edt_option_container:hover {
+    background-image: url(edt_images/thumbnail-edt-container-hover.jpg);
+}
+
+
+
+#cad_option_jpl {
+    background-image: url("cad_images/thumbnail-cad-jpl.jpg");
+}
+
+#cad_option_jpl:hover {
+    background-image: url(cad_images/thumbnail-cad-jpl-hover.jpg);
+}
