@@ -39,6 +39,23 @@
     background-color: black;
 }
 
+.edt_presentationButton {
+    background-color:black;
+    color:white;
+    font-family:'Mesmerize Regular';
+    font-size:20px;
+    padding:20px;
+    width: 200px;
+    margin: 0 auto;
+    text-align:center;
+    transition: opacity 0.20s ease-in-out, background-color 0.20s ease-in-out;
+}
+
+.edt_presentationButton:hover {
+    opacity: 0.8;
+    background-color: green;
+}
+
 #edt_choices_edt {
     display: inline-block;
 }
