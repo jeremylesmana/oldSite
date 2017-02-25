@@ -125,3 +125,8 @@ a {
 	text-decoration: underline;
 }
 
+/* Change the year here every year basically */
+.footerName:after {
+    content: "2017";
+}
+
