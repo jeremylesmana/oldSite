@@ -1,0 +1,125 @@
+@font-face {
+	font-family: "Mesmerize Regular";
+	src: url("fonts/mesmerize-rg.ttf");
+}
+
+@font-face {
+	font-family: "Coolvetica";
+	src: url("fonts/coolvetica rg.ttf");
+}
+
+@font-face {
+	font-family: "GeoSans";
+	src: url("fonts/GeosansLight.ttf");
+}
+
+@font-face {
+	font-family: "Code Bold";
+	src: url("fonts/Code Bold.otf");
+}
+
+@font-face {
+	font-family: "Aileron Light";
+	src: url("fonts/Aileron-Light.otf");
+}
+
+@font-face {
+	font-family: "Aileron Regular";
+	src: url("fonts/Aileron-Regular.otf");
+}
+
+@font-face {
+	font-family: "Aileron Bold";
+	src: url("fonts/Aileron-Bold.otf");
+}
+
+body {
+	background-color: #F7F7F7;
+    margin: 0px;
+}
+
+
+.followTop {
+	background-color: #FFFFFF;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Mesmerize Regular";
+	position: fixed;
+	border-bottom: 1px ridge #CCCCCC;
+	box-shadow: 0px 0px 8px #B8B8B8;
+	z-index: 10;
+	font-size: 20px;
+}
+
+.followTop-text {
+    opacity: 1;
+    transition: opacity .20s;
+    
+}
+
+.followTop-text:hover {
+    opacity: 0.5;
+}
+
+.opacity-hover {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+}
+.opacity-hover:hover {
+    opacity: 0.8;
+}
+
+
+#followTop-inline {
+	display:inline-block;
+	vertical-align:middle;
+}
+
+
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+.footer {
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: "GeoSans";
+	font-weight: 900;
+	font-size: 20px;
+	bottom: 0;
+	box-shadow: 0px 0px 4px #B8B8B8;
+	background-color: #F0F0F0;
+	z-index: 50;
+}
+
+.stripTitle {
+	font-family: "Coolvetica";
+	width: 100%;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	box-shadow: 0px 0px 8px #B8B8B8;
+}
+
+.stripTitleText {
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: 3px dashed black;
+	font-size: 50px;
+}
+
+.hoverUnderline:hover {
+	text-decoration: underline;
+}
+
+/* Change the year here every year basically */
+.footerName:after {
+    content: "2017";
+}
+
