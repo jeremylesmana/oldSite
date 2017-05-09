@@ -123,3 +123,8 @@ a {
     content: "2017";
 }
 
+@media (max-width: 700px) {
+     .desktopOnly {
+        display: none;
+    }
+}

@@ -5,7 +5,6 @@
     border: 3px solid white;
     width: 50%;
     text-align: center;
-    min-width: 400px;
     padding: 30px;
     color:white;
 }
@@ -13,6 +12,14 @@
 .IntroImage {
     display: block;
     margin: 0 auto;
+}
+
+.bodytext {
+    font-family: "GeoSans";
+    font-weight: 900;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
 }
 
 .edt_HeaderBackground {
@@ -105,4 +112,14 @@
 
 #cad_option_jpl:hover {
     background-image: url(cad_images/thumbnail-cad-jpl-hover.jpg);
+}
+
+@media (max-width: 700px) {
+    .edt_Title {
+        width: 85%;
+        padding: 10px;
+    }
+    .bodytext {
+        width: 100%;
+    }
 }
