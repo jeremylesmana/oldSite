@@ -30,21 +30,6 @@
     box-shadow: 0px 0px 200px 75px black inset;
 }
 
-.edt_option {
-    transition: background-image 0.10s ease-in-out;
-    width: 300px;
-    height: 200px;
-    margin: auto;
-    background-color: black;
-}
-
-.cad_option {
-    transition: background-image 0.10s ease-in-out;
-    width: 300px;
-    height: 200px;
-    margin: auto;
-    background-color: black;
-}
 
 .edt_presentationButton {
     background-color:black;
@@ -77,7 +62,7 @@
 }
 
 #edt_option_pingpong:hover {
-    background-image: url(edt_images/thumbnail-edt-pingpong-hover.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("edt_images/thumbnail-edt-pingpong.jpg");
 }
 
 #edt_option_griddle {
@@ -85,7 +70,7 @@
 }
 
 #edt_option_griddle:hover {
-    background-image: url(edt_images/thumbnail-edt-griddle-hover.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("edt_images/thumbnail-edt-griddle.jpg");
 }
 
 #edt_option_bridge {
@@ -93,7 +78,7 @@
 }
 
 #edt_option_bridge:hover {
-    background-image: url(edt_images/thumbnail-edt-bridge-hover.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("edt_images/thumbnail-edt-bridge.jpg");
 }
 
 #edt_option_container {
@@ -101,17 +86,60 @@
 }
 
 #edt_option_container:hover {
-    background-image: url(edt_images/thumbnail-edt-container-hover.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('edt_images/thumbnail-edt-container.jpg');
 }
-
 
 
 #cad_option_jpl {
-    background-image: url("cad_images/thumbnail-cad-jpl.jpg");
+    background: url("cad_images/thumbnail-cad-jpl.jpg");
 }
 
 #cad_option_jpl:hover {
-    background-image: url(cad_images/thumbnail-cad-jpl-hover.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('cad_images/thumbnail-cad-jpl.jpg');
+}
+
+
+#cad_option_ebike {
+    background: url("cad_images/thumbnail-cad-ebike.png");
+}
+
+#cad_option_ebike:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("cad_images/thumbnail-cad-ebike.png");
+}
+
+#cad_option_cswa {
+    background: url("cad_images/thumbnail-cad-cswa.png");
+}
+
+#cad_option_cswa:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("cad_images/thumbnail-cad-cswa.png");
+}
+
+#cad_option_kinetic {
+    background: url("cad_images/thumbnail-cad-kinetic.png");
+}
+
+#cad_option_kinetic:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("cad_images/thumbnail-cad-kinetic.png");
+}
+
+
+.cad_option, .edt_option {
+    width: 200px;
+    height: 90px;
+    color: rgba(0,0,0,0);
+    font-family: "Mesmerize";
+    padding: 50px;
+    padding-top: 60px;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: 600;
+    transition: .2s ease-in-out;
+}
+
+.cad_option:hover, .edt_option:hover {
+    color: rgba(255,255,255,1);
+    font-family: "Mesmerize";
 }
 
 @media (max-width: 700px) {
