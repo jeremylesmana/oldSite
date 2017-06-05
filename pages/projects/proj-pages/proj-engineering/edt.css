@@ -128,7 +128,7 @@
     width: 200px;
     height: 90px;
     color: rgba(0,0,0,0);
-    font-family: "Mesmerize";
+    font-family: "Mesmerize Regular";
     padding: 50px;
     padding-top: 60px;
     background-size: cover;
@@ -139,7 +139,7 @@
 
 .cad_option:hover, .edt_option:hover {
     color: rgba(255,255,255,1);
-    font-family: "Mesmerize";
+    font-family: "Mesmerize Regular";
 }
 
 @media (max-width: 700px) {
